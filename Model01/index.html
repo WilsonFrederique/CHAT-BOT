@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wils Web Site</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <!-- Header Greetings -->
+         <h2 class="title">Wils Web Site</h2>
+         <h4 class="subtitle">Comment puis-je vous aider aujourd'hui ?</h4>
+
+         <!-- Suggesting List -->
+          <ul class="suggesting-list">
+            <li class="suggesting">
+                <h4 class="text">Aidez-moi à organiser une soirée jeux avec mes 5 meilleurs amis pour moins de 100 $.</h4>
+                <i class="icon fa-solid fa-pencil"></i>
+            </li>
+            <li class="suggesting">
+                <h4 class="text">Quels sont les meilleurs conseils pour améliorer mes compétences en prise de parole en public ?</h4>
+                <i class="icon fa-regular fa-lightbulb"></i>
+            </li>
+            <li class="suggesting">
+                <h4 class="text">Pouvez-vous m'aider à trouver les dernières nouvelles sur le web ?</h4>
+                <i class="icon fa-brands fa-internet-explorer"></i>
+            </li>
+            <li class="suggesting">
+                <h4 class="text">Écrivez du code JavaScript pour sommer tous les éléments d'un tableau.</h4>
+                <i class="icon fa-solid fa-code"></i>
+            </li>
+          </ul>
+    </header>
+
+    <!-- Chat List / Container -->
+    <div class="chat-list">
+        <!-- <div class="message outgoing">
+            <div class="message-content">
+                <i class='bx bx-user avatar'></i>
+                <p class="text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero hic voluptatum, 
+                    aliquid rem alias molestias.
+                </p>
+            </div>
+        </div>
+        <div class="message incoming">
+            <div class="message-content">
+                <i class="color-icon fa-solid fa-robot"></i>
+                <p class="text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero hic voluptatum, 
+                    aliquid rem alias molestias.
+                </p>
+            </div>
+            <span><i class="icon fa-regular fa-copy"></i></span>
+        </div> -->
+        
+        <!-- <div class="message incoming loading">
+            <div class="message-content">
+                <i class="color-icon fa-solid fa-robot avatar-animate"></i>
+                <p class="text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero hic voluptatum, 
+                    aliquid rem alias molestias.
+                </p>
+                <div class="loading-indicator">
+                    <div class="loading-bar"></div>
+                    <div class="loading-bar"></div>
+                    <div class="loading-bar"></div>
+                </div>
+            </div>
+            <span><i class="icon fa-regular fa-copy"></i></span>
+        </div> -->
+    </div>
+
+    <!-- Typing Area -->
+    <div class="typing-area">
+        <form action="#" class="typing-form">
+            <div class="input-wrapper">
+                <input type="text" placeholder="Message Wils Web Site" class="typing-input" required>
+                <button class="icon"><i class='scale bx bx-send'></i></button>
+            </div>
+            <div class="action-buttons">
+                <span id="toggle-theme-button"><i class="icon fa-solid fa-circle-half-stroke"></i></span>
+                <span id="delete-chat-button"><i class="icon fa-solid fa-trash"></i></span>
+            </div>
+        </form>
+        <p class="disclaimer-text">
+            Gemini peut afficher des informations inexactes, notamment sur les personnes, alors vérifiez bien ses réponses.
+        </p>
+    </div>
+    
+    <script src="assets/script/script.js"></script>
+</body>
+</html>
